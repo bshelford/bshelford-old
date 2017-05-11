@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2px" height="42px" viewBox="0 0 2 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Linenav</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Nav-Bar" transform="translate(-361.000000, -119.000000)" stroke="#979797" stroke-width="2">
+            <g transform="translate(361.000000, 8.000000)" id="Line">
+                <path d="M1,152 L1,112"></path>
+            </g>
+        </g>
+    </g>
+</svg>

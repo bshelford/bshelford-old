@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="105px" viewBox="0 0 105 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/userbility/selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/userbility/selected">
+            <ellipse id="Oval-2-Copy-3" stroke="#027FF2" stroke-width="3" cx="49" cy="49.5" rx="49" ry="49.5"></ellipse>
+            <text id="User-following---simple-line-icons" font-family="simple-line-icons" font-size="48" font-weight="normal" fill="#50E3C2">
+                <tspan x="25" y="71"></tspan>
+            </text>
+        </g>
+    </g>
+</svg>
