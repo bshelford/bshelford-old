@@ -8,7 +8,7 @@ a {
 }
 
 /*section {
-  min-height: 50vh;
+min-height: 50vh;
 }*/
 
 #about {
@@ -173,190 +173,199 @@ body {
 }
 
 .button-primary {
-    font-family: "open sans";
-    color: #FFF;
-    background-color: #027FF2;
-    border-color: #027FF2; }
-
-/*Navigation*/
-
-.navigation {
-  height: 70px;
-  background: #ffff;
-}
-
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1.4em;
-}
-.brand a,
-.brand a:visited {
-  text-decoration: none;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-
-
-nav {
-  margin: 10px auto;
   font-family: "open sans";
-  font-weight: 300;
-  text-align: center;
-  overflow: hidden;
-  display: inline-block;
-}
+  color: #FFF;
+  background-color: #027FF2;
+  border-color: #027FF2; }
 
-nav i {
-  display: block;
-}
+  /*Navigation*/
 
-nav .separator {
-  line-height: 70px;
-}
+  .navigation {
+    height: 70px;
+    background: #ffff;
+  }
 
-nav .separator img {
-  display: inline-block;
-  vertical-align: middle;
-}
+  .brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+  }
+  .brand a,
+  .brand a:visited {
+    text-decoration: none;
+  }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  .nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-nav ul li {
-  float: left;
-  position: relative;
-}
 
-nav ul li a,
-nav ul li a:visited {
-  display: block;
-  padding: 10px 70px;
-  font-size: 23px;
-  text-transform: uppercase;
-  background: white;
-  color: #4A4A4A;
-  text-decoration: none;
-}
 
-nav ul li a:hover,
-nav ul li a:visited:hover {
-  background: #1DFFC2;
-  color: white;
-}
+  nav {
+    margin: 10px auto;
+    font-family: "open sans";
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+  }
 
-nav ul li a:not(:only-child):after,
-nav ul li a:visited:not(:only-child):after {
-  padding-left: 4px;
-  content: ' ▾';
-}
-
-nav ul li ul li {
-  min-width: 190px;
-}
-
-nav ul li ul li a {
-  padding: 15px;
-  line-height: 20px;
-}
-
-.nav-dropdown {
-  position: absolute;
-  display: none;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-}
-
-.nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: white;
-  height: 70px;
-  width: 70px;
-  margin-top: 25px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav-mobile {
+  nav i {
     display: block;
   }
 
-  nav {
-    width: 100%;
-    padding: 70px 0 15px;
+  nav .separator {
+    line-height: 70px;
   }
+
+  nav .separator img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
   nav ul {
-    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
+
   nav ul li {
-    float: none;
+    float: left;
+    position: relative;
   }
-  nav ul li a {
+
+  nav ul li a,
+  nav ul li a:visited {
+    display: block;
+    padding: 10px 70px;
+    font-size: 23px;
+    text-transform: uppercase;
+    background: white;
+    color: #4A4A4A;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover,
+  nav ul li a:visited:hover {
+    background: #1DFFC2;
+    color: white;
+  }
+
+  nav ul li a:not(:only-child):after,
+  nav ul li a:visited:not(:only-child):after {
+    padding-left: 4px;
+    content: ' ▾';
+  }
+
+  nav ul li ul li {
+    min-width: 190px;
+  }
+
+  nav ul li ul li a {
     padding: 15px;
     line-height: 20px;
   }
-  nav ul li ul li a {
-    padding-left: 30px;
-  }
 
   .nav-dropdown {
-    position: static;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
   }
-}
-@media screen and (min-width: 1024px) {
-  .nav-list {
-    display: block !important;
+
+  .nav-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    height: 70px;
+    width: 70px;
+    margin-top: 25px;
   }
-}
-#nav-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
-}
-#nav-toggle span,
-#nav-toggle span:before,
-#nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: blue;
-  position: absolute;
-  display: block;
-  content: '';
-  transition: all 300ms ease-in-out;
-}
-#nav-toggle span:before {
-  top: -10px;
-}
-#nav-toggle span:after {
-  bottom: -10px;
-}
-#nav-toggle.active span {
-  color: black;
-  background-color: transparent;
-}
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
-}
-#nav-toggle.active span:after {
-  transform: rotate(-45deg);
-}
+
+
+  @media only screen and (max-width: 1024px) {
+    .nav-mobile {
+      display: block;
+    }
+
+    nav {
+      width: 100%;
+      padding: 70px 0 15px;
+    }
+    nav ul {
+      display: none;
+    }
+    nav ul li {
+      float: none;
+    }
+    nav ul li a {
+      padding: 15px;
+      line-height: 20px;
+    }
+    nav ul li ul li a {
+      padding-left: 30px;
+    }
+
+    .nav-dropdown {
+      position: static;
+    }
+    .nav-list-social {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      position: relative;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    .nav-list {
+      display: block !important;
+    }
+  }
+  #nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+  }
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: blue;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+  }
+  #nav-toggle span:before {
+    top: -10px;
+  }
+  #nav-toggle span:after {
+    bottom: -10px;
+  }
+  #nav-toggle.active span {
+    color: black;
+    background-color: transparent;
+  }
+  #nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+  }
+  #nav-toggle.active span:before {
+    transform: rotate(45deg);
+  }
+  #nav-toggle.active span:after {
+    transform: rotate(-45deg);
