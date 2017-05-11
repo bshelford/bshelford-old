@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>Ben Shelford UX</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./java1.js"></script>
+  <script type="text/javascript" src="./simple-scroll.js"></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
@@ -12,98 +15,79 @@
 <body>
   <header id="top"class="container">
 
-    <nav>
-      <div class="nav-mobile">
-        <a id="nav-toggle" href="#!"><span></span></a>
-      </div>
-      <ul class="nav-list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#process">Process</a>
-          <ul class="nav-dropdown">
-            <li><a href="#!">Web Design</a></li>
-            <li><a href="#!">Web Development</a></li>
-            <li><a href="#!">Graphic Design</a></li>
+    <section class="navigation">
+      <div class="nav-container">
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!"><span></span></a>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#about" class="scroll"><i class="icon-ghost"></i>About</a></li>
+            <li class="separator"><img src="images/Linenav.svg" alt="line"></li>
+            <li><a href="#portfolio" class="scroll"><i class="icon-notebook"></i>Portfolio</a></li>
+            <li class="separator"><img src="images/Linenav.svg" alt="line"></li>
+            <li><a href="#process" class="scroll"><i class="icon-vector"></i>Process</a>
+            </li>
+            <li class="separator"><img src="images/Linenav.svg" alt="line"></li>
+            <li><a href="#contact" class="scroll"><i class="icon-speech"></i>Contact</a></li>
           </ul>
-        </li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+        </nav>
 
 
-    <img src="images/logologo.svg" alt="benuxlogo">
+        <!--<img src="images/logologo.svg" alt="benuxlogo">-->
 
-    <!--  <ul class="top-nav">
-    <li><i class="icon-ghost"></i></li>
-    <li><a href="#about">About</a></li>
-    <li><img src="./images/Linenav.svg" alt=""></li>
-    <li><i class="icon-notebook"></i></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><img src="Linenav.svg" alt=""></li>
-    <li><i class="icon-map"></i></li>
-    <li><a href="#process">Process</a></li>
-    <li><img src="Linenav.svg" alt=""></li>
-    <li><i class="icon-envelope-letter"></i></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>-->
+        <div class="title">
+          <h1 class="h1-superclass">BEN<br>SHELFORD</h1>
+          <h2 class="h2-superclass">UX</h2>
+        </div>
 
-  <div class="title">
-    <h1 class="h1-superclass">BEN SHELFORD</h1>
-  </div>
-  <div class="row">
-    <div class="columns three">&nbsp;</div>
-    <div class="columns six">
-      <h2 class="h2-superclass">UX</h2>
-    </div>
-    <div class="columns three">&nbsp;</div>
-  </div>
-  <div class="row">
-    <div class="columns five">&nbsp;</div>
-    <div class="columns two">
-      <div class="scroll-down">
-        <i class="icon-mouse"></i>
+        <div class="row">
+          <div class="columns five">&nbsp;</div>
+          <div class="columns two">
+            <div class="scroll-down">
+              <i class="icon-mouse"></i>
+            </div>
+          </div>
+          <div class="columns five">&nbsp;</div>
+        </div>
+
+      </div>
+
+    </header>
+
+    <section id="about" class="container">
+      <div class="row">
+        <div class="columns three">
+          <img class="u-max-full-width" src="images/profile-img.png" alt="profile img">
+        </div>
+        <div class="columns seven">
+          <h4 class="h4-superclass">Hi my name is Ben, and somthing about being a UX designer why statement</h4>
+        </div>
+        <div class="columns one">&nbsp;</div>
       </div>
     </div>
-    <div class="columns five">&nbsp;</div>
+
+
+
   </div>
-
-</div>
-
-</header>
-
-<section id="about" class="container">
   <div class="row">
-    <div class="columns three">
-      <img class="u-max-full-width" src="images/profile-img.png" alt="profile img">
+    <div class="columns two">&nbsp;</div>
+    <div class="columns eight">
+      <h3 class="h3-superclass">WHAT I DO</h3>
     </div>
-    <div class="columns seven">
-      <h4 class="h4-superclass">Hi my name is Ben, and somthing about being a UX designer why statement</h4>
+    <div class="columns two">&nbsp;</div>
+  </div>
+  <div class="row">
+    <div class="columns five">
+      <h5 class="h5-superclass">UX</h5>
+      <p class="left-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.</p>
     </div>
-    <div class="columns one">&nbsp;</div>
+    <div class="columns two">&nbsp;</div>
+    <div class="columns five">
+      <h5 class="h5-superclass">CODE</h5>
+      <p class="left-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.</p>
+    </div>
   </div>
-</div>
-
-
-
-</div>
-<div class="row">
-  <div class="columns two">&nbsp;</div>
-  <div class="columns eight">
-    <h3 class="h3-superclass">WHAT I DO</h3>
-  </div>
-  <div class="columns two">&nbsp;</div>
-</div>
-<div class="row">
-  <div class="columns five">
-    <h5 class="h5-superclass">UX</h5>
-    <p class="left-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.</p>
-  </div>
-  <div class="columns two">&nbsp;</div>
-  <div class="columns five">
-    <h5 class="h5-superclass">CODE</h5>
-    <p class="left-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas.</p>
-  </div>
-</div>
 </section>
 
 <section id="portfolio" class="container">
@@ -142,7 +126,7 @@
     </div>
     <div class="columns one">&nbsp;</div>
   </div>
-    <div class="row">
+  <div class="row">
     <div class="columns three">
       <h5 class="h5-superclass">Research</h5>
     </div>
@@ -157,66 +141,62 @@
     </div>
   </div>
 
-    <div class="row">
-      <div class="columns three">
-        <img src="images/icon/research/unselected.svg" alt="process img">
+  <div class="row">
+    <div class="columns three">
+      <img src="images/icon/research/unselected.svg" alt="process img">
+    </div>
+    <div class="columns three">
+      <img src="images/icon/sketching/unselected.svg" alt="process img">
+    </div>
+    <div class="columns three">
+      <img src="images/icon/prototype/unselected.svg" alt="process img">
+    </div>
+    <div class="columns three">
+      <img src="images/icon/userbility/unselected.svg" alt="process img">
+    </div>
+  </div>
+  <div class="row">
+    <div class="columns twelve">
+      <p class="process-text">In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris. Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.</p>
+    </div>
+  </div>
+</section>
+<div class="boxcolor">
+  <section id="contact" class="container">
+    <form action="https://formspree.io/benshelford@gmail.com"
+      method="POST">
+      <div class="row">
+        <div class="columns twelve">
+          <h6 class="h6-superclass">If you want to talk UX, Design, gameing or anything else please drop me a message and we can chat!:</h6>
+        </div>
       </div>
-      <div class="columns three">
-        <img src="images/icon/sketching/unselected.svg" alt="process img">
+      <div class="row">
+        <div class="columns six">
+          <label for="nameinput">Your Name</label>
+          <input class="u-full-width" type="text" placeholder="Booker Dewitt" id="nameinput" name="name">
+        </div>
+        <div class="columns six">
+          <label for="emailinput">Your email</label>
+          <input class="u-full-width" type="email" placeholder="Dewitt@mailbox.com" id="emailinput" name="_replyto">
+        </div>
+        <div class="columns one">&nbsp;</div>
       </div>
-      <div class="columns three">
-        <img src="images/icon/prototype/unselected.svg" alt="process img">
+      <div class="row">
+        <div class="columns twelve">
+          <label for="Message">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Ben …" id="Message" name="message"></textarea>
+        </div>
       </div>
-      <div class="columns three">
-        <img src="images/icon/userbility/unselected.svg" alt="process img">
+      <div class="row">
+        <div class="columns five">&nbsp;</div>
+        <div class="columns two">
+          <input class="button-primary" type="submit" value="Submit">
+        </div>
+        <div class="columns one">&nbsp;</div>
       </div>
     </div>
-    <div class="row">
-      <div class="columns twelve">
-        <p class="process-text">In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris. Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.</p>
-      </div>
-    </div>
-  </section>
-  <div class="boxcolor">
-    <section id="contact" class="container">
-      <form>
-        <div class="row">
-          <div class="columns twelve">
-            <h6 class="h6-superclass">If you want to talk UX, Design, gameing or anything else please drop me a message and we can chat!:</h6>
-          </div>
-        </div>
-        <div class="row">
-          <div class="columns six">
-            <label for="nameinput">Your Name</label>
-            <input class="u-full-width" type="text" placeholder="Booker Dewitt" id="nameinput">
-          </div>
-          <div class="columns six">
-            <label for="emailinput">Your email</label>
-            <input class="u-full-width" type="email" placeholder="Dewitt@mailbox.com" id="emailinput">
-          </div>
-          <div class="columns one">&nbsp;</div>
-        </div>
-        <div class="row">
-          <div class="columns twelve">
-            <label for="Message">Message</label>
-            <textarea class="u-full-width" placeholder="Hi Ben …" id="Message"></textarea>
-          </div>
-        </div>
-        <label class="send-yourself-copy">
-          <input type="checkbox">
-          <span class="label-body">Send a copy to yourself</span>
-        </label>
-
-        <div class="row">
-          <div class="columns five">&nbsp;</div>
-          <div class="columns two">
-            <input class="button-primary" type="submit" value="Submit">
-          </div>
-          <div class="columns one">&nbsp;</div>
-        </div>
-      </div>
-    </form>
-  </section>
+  </form>
+</section>
 </div>
 
 <a href="#top">
@@ -256,15 +236,17 @@
     <div class="columns five">&nbsp;</div>
   </div>
 
-<div class="row">
-<nav>
-<ul>
-  <li><i id="social-icons" class="icon-social-twitter"></i></li>
-  <li><i class="icon-social-linkedin"></i></li>
-  <li><i class="icon-book-open"></i></li>
-</ul>
-</nav>
-</div>
+  <div class="row">
+    <nav>
+      <div class="columns three">
+        <ul>
+          <li><i id="social-icons" class="icon-social-twitter"></i></li>
+          <li><i class="icon-social-linkedin"></i></li>
+          <li><i class="icon-book-open"></i></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
 
 </footer>
