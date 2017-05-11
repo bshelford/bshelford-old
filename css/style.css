@@ -4,7 +4,7 @@ section {
 
 body {
   background-image: url(/images/background-pattern.svg);
-  
+  background-attachment: scroll;
 }
 
 .title {
