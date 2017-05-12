@@ -291,6 +291,9 @@ body {
     .nav-mobile {
       display: block;
     }
+    .title {
+      min-height: 22vh;
+    }
 
     nav {
       width: 100%;
