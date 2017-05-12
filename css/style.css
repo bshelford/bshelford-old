@@ -13,12 +13,14 @@ min-height: 50vh;
 
 #about {
   margin-top: 55vh;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url(/images/background-pattern.svg);
   background-size: cover;
 }
+
 
 .title {
   min-height: 55vh;
@@ -179,11 +181,6 @@ body {
   border-color: #027FF2; }
 
   /*Navigation*/
-
-  .navigation {
-    height: 70px;
-    background: #ffff;
-  }
 
   .brand {
     position: absolute;
@@ -369,3 +366,29 @@ body {
   }
   #nav-toggle.active span:after {
     transform: rotate(-45deg);
+}
+
+/*.select{
+  opacity: 1;
+}
+
+.ovtxt {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay {
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.select:hover .overlay {
+
+  opacity:1;
+}*/
