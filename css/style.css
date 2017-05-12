@@ -371,27 +371,63 @@ body {
     transform: rotate(-45deg);
 }
 
-/*.select{
-  opacity: 1;
+
+.hoverbox {
+    position: relative;
 }
 
-.ovtxt {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.hoverbox2 {
+    position: relative;
+}
+
+.hoverbox3 {
+    position: relative;
+}
+
+.hoverbox4 {
+    position: relative;
 }
 
 .overlay {
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+    display: none;
+    height: 97%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.select:hover .overlay {
+.overlay2 {
+    display: none;
+    height: 97%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
-  opacity:1;
-}*/
+.overlay3 {
+    display: none;
+    height: 97%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay4 {
+    display: none;
+    height: 97%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

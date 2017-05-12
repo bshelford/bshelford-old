@@ -1,3 +1,58 @@
+
+
+$(document).ready(function() {
+
+    $(".hoverbox").on("mouseenter", function(){
+
+        $(".overlay").stop(true, true).fadeIn();
+
+    });
+
+    $(".hoverbox").on("mouseleave", function(){
+
+        $(".overlay").stop(true, true).fadeOut();
+
+    });
+
+    $(".hoverbox2").on("mouseenter", function(){
+
+        $(".overlay2").stop(true, true).fadeIn();
+
+    });
+
+    $(".hoverbox2").on("mouseleave", function(){
+
+        $(".overlay2").stop(true, true).fadeOut();
+
+    });
+
+    $(".hoverbox3").on("mouseenter", function(){
+
+        $(".overlay3").stop(true, true).fadeIn();
+
+    });
+
+    $(".hoverbox3").on("mouseleave", function(){
+
+        $(".overlay3").stop(true, true).fadeOut();
+
+    });
+
+    $(".hoverbox4").on("mouseenter", function(){
+
+        $(".overlay4").stop(true, true).fadeIn();
+
+    });
+
+    $(".hoverbox4").on("mouseleave", function(){
+
+        $(".overlay4").stop(true, true).fadeOut();
+
+    });
+
+});
+
+
 (function($) { // Begin jQuery
   $(function() { // DOM ready
     // If a link has a dropdown, add sub menu toggle.
