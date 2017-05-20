@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="576px" height="400px" viewBox="0 0 576 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
     <title>colour-color-project3</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
@@ -9,8 +9,9 @@
             <g id="Projects" transform="translate(132.000000, 2979.000000)">
                 <g id="colour-color-project3">
                     <rect id="colour-cover-t/l-copy-2" fill-opacity="0.3" fill="#027FF2" x="0" y="0" width="576" height="400"></rect>
-                    <text id="GA-Student-Project" font-family="OpenSans, Open Sans" font-size="29" font-weight="normal" fill="#FFFFFF">
-                        <tspan x="161.278076" y="263">GA Student Project</tspan>
+                    <text id="Live-client-project" font-family="OpenSans, Open Sans" font-size="29" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="170.885742" y="263">Live client project</tspan>
+                        <tspan x="118.479004" y="302">(case study coming soon)</tspan>
                     </text>
                     <path d="M131,223 L445,223" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
                     <path d="M131,124 L445,124" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
