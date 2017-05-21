@@ -9,14 +9,15 @@
             <g id="Projects" transform="translate(132.000000, 2979.000000)">
                 <g id="colour-color-project3">
                     <rect id="colour-cover-t/l-copy-2" fill-opacity="0.3" fill="#027FF2" x="0" y="0" width="576" height="400"></rect>
-                    <text id="Live-client-project" font-family="OpenSans, Open Sans" font-size="29" font-weight="normal" fill="#FFFFFF">
-                        <tspan x="170.885742" y="263">Live client project</tspan>
-                        <tspan x="118.479004" y="302">(case study coming soon)</tspan>
+                    <text id="Design-sprint-for-cr" font-family="OpenSans, Open Sans" font-size="29" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="175.834717" y="263">Design sprint for </tspan>
+                        <tspan x="139.322754" y="302">crowdfunding website</tspan>
+                        <tspan x="171.806152" y="341">(Ongoing Project)</tspan>
                     </text>
-                    <path d="M131,223 L445,223" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                    <path d="M131,124 L445,124" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                    <text id="Project-3" font-family="OpenSans-Bold, Open Sans" font-size="72" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="131.185547" y="197">Project 3</tspan>
+                    <path d="M38,223 L538,223" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M38,124 L538,124" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                    <text id="Crowd.Science" font-family="OpenSans-Bold, Open Sans" font-size="72" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="30.4707031" y="197">Crowd.Science</tspan>
                     </text>
                 </g>
             </g>
