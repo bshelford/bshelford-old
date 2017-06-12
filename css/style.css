@@ -72,16 +72,16 @@ body {
 .h4-superclass {
   font-family: "open sans";
   color: #027FF2;
-  font-size: 2vw;
+  font-size: 1.5em;
   font-weight: 700;
   text-shadow: -21px 24px 17px rgba(80,227,194,0.21);
-
+  text-align: justify;
 }
 .h5-superclass {
   color: #027FF2;
-  font-size: 24px;
+  font-size: 1.3em;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 300;
   padding-bottom: 24px
   magin: 0;
 }
@@ -91,13 +91,13 @@ body {
   letter-spacing: 1px;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 24px
+  padding-bottom: 3em;
   magin: 0;
 }
 .h6-superclass {
   font-family: "open sans";
   color: #FFFFFF;
-  font-size: 3vw;
+  font-size: 2em;
   letter-spacing: 0;
   text-align: center;
   font-weight: 700;
@@ -113,7 +113,7 @@ body {
 }
 .process-text {
   font-family: "open sans";
-  font-size: 3vh;
+  font-size: 1.3em;
   font-weight: 300;
   color: #4A4A4A;
   padding-top: 80px;
@@ -149,7 +149,7 @@ body {
 .return-text {
   font-family: "open sans";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 2.5em;
   color: #4A4A4A;
   z-index: -1;
   margin-top: -24px;
@@ -162,7 +162,7 @@ body {
   line-height: 44px;
   display: block;
   list-style: none;
-  font-size: 3vw;
+  font-size: 2.5em;
   color: #4A4A4A;
   text-align: center;
 }
@@ -172,14 +172,25 @@ body {
 
 .boxcolor {
   background-color: #1DFFC2;
-  max-height: 40vw;
 }
 
-.button-primary {
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"]{
   font-family: "open sans";
+  font-size: 14px;
+  font-weight: 300;
   color: #FFF;
-  background-color: #027FF2;
-  border-color: #027FF2; }
+  border-radius: 2px;
+  border: 1px solid #FFF;
+
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+  color: rgba(74, 74, 74, 0.51);
+  border-radius: 2px;
+  border: 1px solid rgba(74, 74, 74, 0.51);
+}
+
 
   /*Navigation*/
 
@@ -288,7 +299,7 @@ body {
   }
 
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1200px) {
     .nav-mobile {
       display: block;
     }
@@ -327,7 +338,7 @@ body {
   }
 
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1200px) {
     .nav-list {
       display: block !important;
     }
@@ -377,21 +388,10 @@ body {
     position: relative;
 }
 
-.hoverbox2 {
-    position: relative;
-}
-
-.hoverbox3 {
-    position: relative;
-}
-
-.hoverbox4 {
-    position: relative;
-}
 
 .overlay {
     display: none;
-    height: 97%;
+    height: 98%;
     width:100%;
     position: absolute;
     top: 0;
@@ -400,35 +400,46 @@ body {
     right: 0;
 }
 
-.overlay2 {
-    display: none;
-    height: 97%;
-    width:100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+/*Trying to reproduce image in css*/
+.overlay{
+  background-color: rgba(30, 174, 219, .5);
+  color: white;
+  font-family: "open sans";
+  text-align: center;
 }
 
-.overlay3 {
-    display: none;
-    height: 97%;
-    width:100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.overlay h3{
+  display: inline-block;
+  border-color: white;
+  border-width: 3px 0 3px 0;
+  border-style: solid;
+  margin-top: 60px;
+  font-weight: 600;
+
 }
 
-.overlay4 {
-    display: none;
-    height: 97%;
-    width:100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.overlay p{
+font-size: 3vh;
+font-weight: 300;
+}
+
+.overlay a{
+  color: white;
+}
+
+.nav-list-social li{
+  list-style: none;
+  display: inline;
+}
+
+.nav-list-social li a{
+  font-size: 30px;
+  color: #4A4A4A;
+  margin: 1em;
+  padding: 10px;
+}
+
+.nav-list-social li a:hover{
+  background: #1DFFC2;
+  color: white;
 }
